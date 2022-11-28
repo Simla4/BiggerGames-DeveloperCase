@@ -9,13 +9,15 @@ Algoritma aslında temelde şuna dayalı. 3x3 bir grid'imizin olduğunu varsayal
 1. Level'da kaç şeklin olacağının belirlenmesi
 2. Bu şekillerin en az kaç üçgenden oluşacağının belirlenmesi. 
 
-![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204170740-1b387c2a-b2aa-432e-8326-e9179fee731d.PNG)
+![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204169956-8388582b-bfab-41ff-9a8d-77c3a2b9e31b.PNG)
+![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204171232-1ba8c12c-1c34-46ea-bbab-9a8025c19a8a.PNG)
+
 
 
 3. Şekillerdeki üçgen sayısının belirlenmesi. Örneğin level'da 2 şeklimiz olsun ve bu beş şekil en az 4 üçgenden oluşsun.
 
+![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204170740-1b387c2a-b2aa-432e-8326-e9179fee731d.PNG)
 
-![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204169956-8388582b-bfab-41ff-9a8d-77c3a2b9e31b.PNG)
 
 4. İlk üçgenin random olarak belirlenmesi.
 
