@@ -28,7 +28,7 @@ public class ShapeGenerator : MonoBehaviour
 
     private void Start()
     {
-        CreateShape(0);
+        CreateShape(PlayerPrefs.GetInt("CurrentLevel"));
     }
 
     #endregion
