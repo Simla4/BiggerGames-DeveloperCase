@@ -30,6 +30,8 @@ public class ShapeGenerator : MonoBehaviour
         var minTriangleCount = levelDataList[0].minTriangleCount;
         var shapeCount = levelDataList[0].shapeCount;
 
+        var currentTriangleCount = 36;
+
         int i = 0;
 
         while (i < (shapeCount - 1))
@@ -43,7 +45,7 @@ public class ShapeGenerator : MonoBehaviour
                 selectedTriangle.isElected = true;
             
             
-                var rnd = Random.Range(0, (36 - minTriangleCount));
+                var rnd = Random.Range(0, (36 - (minTriangleCount * shapeCount)));
                 var shapeTriangleCount = minTriangleCount + rnd;
 
                 i++;
@@ -72,6 +74,7 @@ public class ShapeGenerator : MonoBehaviour
                 }
 
                 newParentIndex++;
+                currentTriangleCount -= shapeTriangleCount;
             }
             
         }
