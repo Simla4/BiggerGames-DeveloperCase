@@ -9,4 +9,11 @@ Algoritma aslında temelde şuna dayalı. 3x3 bir grid'imizin olduğunu varsayal
 3. Şekillerdeki üçgen sayısının belirlenmesi. Örneğin level'da 2 şeklimiz olsun ve bu beş şekil en az 4 üçgenden oluşsun.
 
 
-![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204169596-7982239e-114c-4efd-a331-cb90d78fdc71.PNG)
+![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204169956-8388582b-bfab-41ff-9a8d-77c3a2b9e31b.PNG)
+
+4. İlk üçgenin random olarak belirlenmesi.
+5. Belirlenen gidebileceği komşu üçgenlerin belirlenmesi.
+6. Gidebileceği komşu üçgenlerden birinin random seçilmesi.
+7. Seçilen random üçgenin gidebileceği komşu üçgenlerin belirlenmesi.
+8. Aralarından random bir üçgenin seçilmesi
+9. Şeklin üçgen sayısı tamamlanasaya karadar 7 ve 8. adımın tekrarlanması.
