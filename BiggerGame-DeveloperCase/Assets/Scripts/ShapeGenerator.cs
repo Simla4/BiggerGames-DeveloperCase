@@ -16,19 +16,29 @@ public class ShapeGenerator : MonoBehaviour
 
     #region Callbacks
 
+    private void OnEnable()
+    {
+        EventManager.OnNextLevel += CreateShape;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.OnNextLevel -= CreateShape;
+    }
+
     private void Start()
     {
-        CreateShape();
+        CreateShape(0);
     }
 
     #endregion
 
     #region Other Methods
 
-    private void CreateShape()
+    private void CreateShape(int currentLevel)
     {
-        var minTriangleCount = levelDataList[0].minTriangleCount;
-        var shapeCount = levelDataList[0].shapeCount;
+        var minTriangleCount = levelDataList[currentLevel].minTriangleCount;
+        var shapeCount = levelDataList[currentLevel].shapeCount;
 
         var currentTriangleCount = 36;
 
