@@ -19,11 +19,12 @@ Algoritma aslında temelde şuna dayalı. 3x3 bir grid'imizin olduğunu varsayal
 
 4. İlk üçgenin random olarak belirlenmesi.
 
-![Uploading Ekran Alıntısı.PNG…]()
+
+![Ekran Alıntısı](https://user-images.githubusercontent.com/38881186/204171065-c3e244a6-9e58-4484-b624-47642857c5cc.PNG)
 
 
-6. Belirlenen gidebileceği komşu üçgenlerin belirlenmesi. Bunu şu şekilde belirledim. Grid'i olşturan her bir üçgen kendi içinde komşu üçgen listesi tutuyor ve gidebilecği üçgen bu listeden random seçiliyor. Eğer daha önce kullanılmamışsa bir sonraki üçgen o oluyor.
-7. Gidebileceği komşu üçgenlerden birinin random seçilmesi.
-8. Seçilen random üçgenin gidebileceği komşu üçgenlerin belirlenmesi.
-9. Aralarından random bir üçgenin seçilmesi
-10. Şeklin üçgen sayısı tamamlanasaya karadar 7 ve 8. adımın tekrarlanması.
+5. Belirlenen gidebileceği komşu üçgenlerin belirlenmesi. Bunu şu şekilde belirledim. Grid'i olşturan her bir üçgen kendi içinde komşu üçgen listesi tutuyor ve gidebilecği üçgen bu listeden random seçiliyor. Eğer daha önce kullanılmamışsa bir sonraki üçgen o oluyor.
+6. Gidebileceği komşu üçgenlerden birinin random seçilmesi.
+7. Seçilen random üçgenin gidebileceği komşu üçgenlerin belirlenmesi.
+8. Aralarından random bir üçgenin seçilmesi
+9. Şeklin üçgen sayısı tamamlanasaya karadar 7 ve 8. adımın tekrarlanması.
