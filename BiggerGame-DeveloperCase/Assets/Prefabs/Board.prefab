@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6494944948914856132}
   - component: {fileID: 9201385310030350312}
+  - component: {fileID: 6122584205546118685}
   m_Layer: 0
   m_Name: plain-triangle (27)
   m_TagString: Slicable
@@ -84,6 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6122584205546118685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616960162806945222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705192339318397634
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202041947105848178}
   - component: {fileID: 7182379519111813870}
+  - component: {fileID: 705968474325297028}
   m_Layer: 0
   m_Name: plain-triangle (28)
   m_TagString: Slicable
@@ -168,6 +182,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &705968474325297028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705192339318397634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &940322041638216059
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4103194232297899063}
+  - component: {fileID: 2370022229107255106}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -235,6 +262,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2370022229107255106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940322041638216059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47808f2d1e630a042992ff0c606c9211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triangles:
+  - {fileID: 8182020867755698304}
+  - {fileID: 1196177622320471785}
+  - {fileID: 2897266422089808027}
+  - {fileID: 4141500907389737329}
+  - {fileID: 8402504391169187729}
+  - {fileID: 5064825824960126505}
+  - {fileID: 8701639845990488008}
+  - {fileID: 2803343005056377663}
+  - {fileID: 6099355250446030211}
+  - {fileID: 5226846493136670916}
+  - {fileID: 4083045580502281481}
+  - {fileID: 1185197389604500997}
+  - {fileID: 7161932462179208096}
+  - {fileID: 8945733795992868962}
+  - {fileID: 7828662576651822045}
+  - {fileID: 8846918628810987820}
+  - {fileID: 8648667769891819093}
+  - {fileID: 5927218912166911151}
+  - {fileID: 3210045895945739102}
+  - {fileID: 4838008234981173492}
+  - {fileID: 1497567521041745237}
+  - {fileID: 3885088616883271106}
+  - {fileID: 382735159544312776}
+  - {fileID: 7667193367755451541}
+  - {fileID: 3242788347275520521}
+  - {fileID: 8189887409455478352}
+  - {fileID: 6320552770939459548}
+  - {fileID: 6122584205546118685}
+  - {fileID: 705968474325297028}
+  - {fileID: 3178123352271244145}
+  - {fileID: 5904762673182443360}
+  - {fileID: 2978299130615699167}
+  - {fileID: 5614161218881331896}
+  - {fileID: 3079366664740758220}
+  - {fileID: 1759225882850345161}
+  - {fileID: 7556194058020190883}
 --- !u!1 &1531555847334784876
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8650057262885868633}
   - component: {fileID: 5666723199720329347}
+  - component: {fileID: 7556194058020190883}
   m_Layer: 0
   m_Name: plain-triangle (35)
   m_TagString: Slicable
@@ -319,6 +396,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7556194058020190883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531555847334784876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1624136060029724324
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6386281017661622342}
   - component: {fileID: 6372686447422839150}
+  - component: {fileID: 5904762673182443360}
   m_Layer: 0
   m_Name: plain-triangle (30)
   m_TagString: Slicable
@@ -403,6 +493,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5904762673182443360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624136060029724324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3336315957663300965
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8649532707039677060}
   - component: {fileID: 5656170688542299700}
+  - component: {fileID: 5614161218881331896}
   m_Layer: 0
   m_Name: plain-triangle (32)
   m_TagString: Slicable
@@ -487,6 +590,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5614161218881331896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336315957663300965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3461648236899610872
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2258437702281773898}
   - component: {fileID: 4993090690219566123}
+  - component: {fileID: 382735159544312776}
   m_Layer: 0
   m_Name: plain-triangle (22)
   m_TagString: Slicable
@@ -571,6 +687,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &382735159544312776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3461648236899610872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4615173633895039515
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7333619611439828928}
   - component: {fileID: 2957331897150410332}
+  - component: {fileID: 3885088616883271106}
   m_Layer: 0
   m_Name: plain-triangle (21)
   m_TagString: Slicable
@@ -655,6 +784,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3885088616883271106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615173633895039515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4704047412627520477
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8078439592033667766}
   - component: {fileID: 1569637024309668148}
+  - component: {fileID: 8648667769891819093}
   m_Layer: 0
   m_Name: plain-triangle (16)
   m_TagString: Slicable
@@ -739,6 +881,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8648667769891819093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4704047412627520477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4960678416507382631
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75292431910499776}
   - component: {fileID: 7177367128664270826}
+  - component: {fileID: 5927218912166911151}
   m_Layer: 0
   m_Name: plain-triangle (17)
   m_TagString: Slicable
@@ -823,6 +978,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5927218912166911151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960678416507382631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5158439037188248133
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3654383962451726365}
   - component: {fileID: 3286393429380391336}
+  - component: {fileID: 6320552770939459548}
   m_Layer: 0
   m_Name: plain-triangle (26)
   m_TagString: Slicable
@@ -907,6 +1075,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6320552770939459548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5158439037188248133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5638245655529394409
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +1097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5583145167340951698}
   - component: {fileID: 2439210020617223952}
+  - component: {fileID: 3079366664740758220}
   m_Layer: 0
   m_Name: plain-triangle (33)
   m_TagString: Slicable
@@ -991,6 +1172,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3079366664740758220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638245655529394409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6855501350872426952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7517003949347953792}
   - component: {fileID: 6442632516085502626}
+  - component: {fileID: 3178123352271244145}
   m_Layer: 0
   m_Name: plain-triangle (29)
   m_TagString: Slicable
@@ -1075,6 +1269,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3178123352271244145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855501350872426952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6992881899301283580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,6 +1291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8856658170407300457}
   - component: {fileID: 4008408111926517427}
+  - component: {fileID: 7667193367755451541}
   m_Layer: 0
   m_Name: plain-triangle (23)
   m_TagString: Slicable
@@ -1159,6 +1366,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7667193367755451541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992881899301283580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7109110936026304575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,6 +1388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8798147773407821291}
   - component: {fileID: 6289557438213796185}
+  - component: {fileID: 4838008234981173492}
   m_Layer: 0
   m_Name: plain-triangle (19)
   m_TagString: Slicable
@@ -1243,6 +1463,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4838008234981173492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109110936026304575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7558899017119091908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,6 +1485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387136344645440226}
   - component: {fileID: 5963250671680031385}
+  - component: {fileID: 1497567521041745237}
   m_Layer: 0
   m_Name: plain-triangle (20)
   m_TagString: Slicable
@@ -1327,6 +1560,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1497567521041745237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558899017119091908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7640534565873198427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3854405857303040848}
   - component: {fileID: 8979692331677529505}
+  - component: {fileID: 8189887409455478352}
   m_Layer: 0
   m_Name: plain-triangle (25)
   m_TagString: Slicable
@@ -1411,6 +1657,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8189887409455478352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640534565873198427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8014058460411785579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6893770233557176741}
   - component: {fileID: 540860481791059329}
+  - component: {fileID: 3210045895945739102}
   m_Layer: 0
   m_Name: plain-triangle (18)
   m_TagString: Slicable
@@ -1495,6 +1754,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3210045895945739102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014058460411785579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8260906188222287421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4504235581372089869}
   - component: {fileID: 4049938276771596663}
+  - component: {fileID: 3242788347275520521}
   m_Layer: 0
   m_Name: plain-triangle (24)
   m_TagString: Slicable
@@ -1579,6 +1851,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3242788347275520521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260906188222287421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8580065546109817106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2723682340612362227}
   - component: {fileID: 7019716700554769174}
+  - component: {fileID: 1759225882850345161}
   m_Layer: 0
   m_Name: plain-triangle (34)
   m_TagString: Slicable
@@ -1663,6 +1948,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1759225882850345161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8580065546109817106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359362855052580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359362855052602}
   - component: {fileID: 8697359362855052581}
+  - component: {fileID: 8945733795992868962}
   m_Layer: 0
   m_Name: plain-triangle (13)
   m_TagString: Slicable
@@ -1747,6 +2045,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8945733795992868962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359362855052580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359362933506528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,6 +2067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359362933506534}
   - component: {fileID: 8697359362933506529}
+  - component: {fileID: 8846918628810987820}
   m_Layer: 0
   m_Name: plain-triangle (15)
   m_TagString: Slicable
@@ -1831,6 +2142,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8846918628810987820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359362933506528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359362945374747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,6 +2164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359362945374745}
   - component: {fileID: 8697359362945374744}
+  - component: {fileID: 8182020867755698304}
   m_Layer: 0
   m_Name: plain-triangle
   m_TagString: Slicable
@@ -1915,6 +2239,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8182020867755698304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359362945374747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363012873188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,6 +2261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363012873210}
   - component: {fileID: 8697359363012873189}
+  - component: {fileID: 5226846493136670916}
   m_Layer: 0
   m_Name: plain-triangle (9)
   m_TagString: Slicable
@@ -1999,6 +2336,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5226846493136670916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363012873188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363130041666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,6 +2358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363130041664}
   - component: {fileID: 8697359363130041667}
+  - component: {fileID: 7828662576651822045}
   m_Layer: 0
   m_Name: plain-triangle (14)
   m_TagString: Slicable
@@ -2083,6 +2433,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7828662576651822045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363130041666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363130536107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363130536105}
   - component: {fileID: 8697359363130536104}
+  - component: {fileID: 7161932462179208096}
   m_Layer: 0
   m_Name: plain-triangle (12)
   m_TagString: Slicable
@@ -2167,6 +2530,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7161932462179208096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363130536107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363457812323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,6 +2552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363457812321}
   - component: {fileID: 8697359363457812320}
+  - component: {fileID: 8402504391169187729}
   m_Layer: 0
   m_Name: plain-triangle (4)
   m_TagString: Slicable
@@ -2251,6 +2627,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8402504391169187729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363457812323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363660527976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363660527982}
   - component: {fileID: 8697359363660527977}
+  - component: {fileID: 4141500907389737329}
   m_Layer: 0
   m_Name: plain-triangle (3)
   m_TagString: Slicable
@@ -2335,6 +2724,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4141500907389737329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363660527976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359363820726181
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,6 +2746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359363820726203}
   - component: {fileID: 8697359363820726202}
+  - component: {fileID: 4083045580502281481}
   m_Layer: 0
   m_Name: plain-triangle (10)
   m_TagString: Slicable
@@ -2419,6 +2821,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4083045580502281481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359363820726181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364044626480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364044626486}
   - component: {fileID: 8697359364044626481}
+  - component: {fileID: 1196177622320471785}
   m_Layer: 0
   m_Name: plain-triangle (1)
   m_TagString: Slicable
@@ -2503,6 +2918,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1196177622320471785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364044626480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364057752007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364057752005}
   - component: {fileID: 8697359364057752004}
+  - component: {fileID: 5064825824960126505}
   m_Layer: 0
   m_Name: plain-triangle (5)
   m_TagString: Slicable
@@ -2587,6 +3015,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5064825824960126505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364057752007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364277186131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,6 +3037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364277186129}
   - component: {fileID: 8697359364277186128}
+  - component: {fileID: 8701639845990488008}
   m_Layer: 0
   m_Name: plain-triangle (6)
   m_TagString: Slicable
@@ -2671,6 +3112,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8701639845990488008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364277186131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364282576447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,6 +3134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364282576445}
   - component: {fileID: 8697359364282576444}
+  - component: {fileID: 2897266422089808027}
   m_Layer: 0
   m_Name: plain-triangle (2)
   m_TagString: Slicable
@@ -2755,6 +3209,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2897266422089808027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364282576447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364376383630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2765,6 +3231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364376383628}
   - component: {fileID: 8697359364376383631}
+  - component: {fileID: 1185197389604500997}
   m_Layer: 0
   m_Name: plain-triangle (11)
   m_TagString: Slicable
@@ -2839,6 +3306,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1185197389604500997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364376383630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364582693056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +3328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364582693062}
   - component: {fileID: 8697359364582693057}
+  - component: {fileID: 6099355250446030211}
   m_Layer: 0
   m_Name: plain-triangle (8)
   m_TagString: Slicable
@@ -2923,6 +3403,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6099355250446030211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364582693056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8697359364708785211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,6 +3425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697359364708785209}
   - component: {fileID: 8697359364708785208}
+  - component: {fileID: 2803343005056377663}
   m_Layer: 0
   m_Name: plain-triangle (7)
   m_TagString: Slicable
@@ -3007,6 +3500,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2803343005056377663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697359364708785211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9071001237532805343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820759503343410109}
   - component: {fileID: 678364778072319908}
+  - component: {fileID: 2978299130615699167}
   m_Layer: 0
   m_Name: plain-triangle (31)
   m_TagString: Slicable
@@ -3091,3 +3597,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2978299130615699167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9071001237532805343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
