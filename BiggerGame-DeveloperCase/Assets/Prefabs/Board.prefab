@@ -97,6 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 3242788347275520521}
+  - {fileID: 5927218912166911151}
+  - {fileID: 6320552770939459548}
+  isChosen: 0
 --- !u!1 &705192339318397634
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +199,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 6320552770939459548}
+  - {fileID: 2978299130615699167}
+  - {fileID: 3178123352271244145}
+  isChosen: 0
 --- !u!1 &940322041638216059
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +213,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4103194232297899063}
-  - component: {fileID: 2370022229107255106}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -262,55 +271,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2370022229107255106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 940322041638216059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47808f2d1e630a042992ff0c606c9211, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triangles:
-  - {fileID: 8182020867755698304}
-  - {fileID: 1196177622320471785}
-  - {fileID: 2897266422089808027}
-  - {fileID: 4141500907389737329}
-  - {fileID: 8402504391169187729}
-  - {fileID: 5064825824960126505}
-  - {fileID: 8701639845990488008}
-  - {fileID: 2803343005056377663}
-  - {fileID: 6099355250446030211}
-  - {fileID: 5226846493136670916}
-  - {fileID: 4083045580502281481}
-  - {fileID: 1185197389604500997}
-  - {fileID: 7161932462179208096}
-  - {fileID: 8945733795992868962}
-  - {fileID: 7828662576651822045}
-  - {fileID: 8846918628810987820}
-  - {fileID: 8648667769891819093}
-  - {fileID: 5927218912166911151}
-  - {fileID: 3210045895945739102}
-  - {fileID: 4838008234981173492}
-  - {fileID: 1497567521041745237}
-  - {fileID: 3885088616883271106}
-  - {fileID: 382735159544312776}
-  - {fileID: 7667193367755451541}
-  - {fileID: 3242788347275520521}
-  - {fileID: 8189887409455478352}
-  - {fileID: 6320552770939459548}
-  - {fileID: 6122584205546118685}
-  - {fileID: 705968474325297028}
-  - {fileID: 3178123352271244145}
-  - {fileID: 5904762673182443360}
-  - {fileID: 2978299130615699167}
-  - {fileID: 5614161218881331896}
-  - {fileID: 3079366664740758220}
-  - {fileID: 1759225882850345161}
-  - {fileID: 7556194058020190883}
 --- !u!1 &1531555847334784876
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +368,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5064825824960126505}
+  - {fileID: 1759225882850345161}
+  - {fileID: 5614161218881331896}
+  isChosen: 0
 --- !u!1 &1624136060029724324
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +470,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 3178123352271244145}
+  - {fileID: 5614161218881331896}
+  - {fileID: 2978299130615699167}
+  isChosen: 0
 --- !u!1 &3336315957663300965
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5904762673182443360}
+  - {fileID: 7556194058020190883}
+  - {fileID: 3079366664740758220}
+  isChosen: 0
 --- !u!1 &3461648236899610872
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +674,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 7161932462179208096}
+  - {fileID: 3885088616883271106}
+  - {fileID: 7667193367755451541}
+  isChosen: 0
 --- !u!1 &4615173633895039515
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +776,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 1497567521041745237}
+  - {fileID: 4838008234981173492}
+  - {fileID: 382735159544312776}
+  isChosen: 0
 --- !u!1 &4704047412627520477
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +878,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5927218912166911151}
+  - {fileID: 4838008234981173492}
+  isChosen: 0
 --- !u!1 &4960678416507382631
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +979,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8648667769891819093}
+  - {fileID: 6122584205546118685}
+  - {fileID: 3210045895945739102}
+  isChosen: 0
 --- !u!1 &5158439037188248133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1081,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8189887409455478352}
+  - {fileID: 705968474325297028}
+  - {fileID: 6122584205546118685}
+  isChosen: 0
 --- !u!1 &5638245655529394409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5614161218881331896}
+  - {fileID: 1759225882850345161}
+  isChosen: 0
 --- !u!1 &6855501350872426952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1284,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 705968474325297028}
+  - {fileID: 5904762673182443360}
+  isChosen: 0
 --- !u!1 &6992881899301283580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,6 +1385,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 1497567521041745237}
+  - {fileID: 382735159544312776}
+  isChosen: 0
 --- !u!1 &7109110936026304575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,6 +1486,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8648667769891819093}
+  - {fileID: 3210045895945739102}
+  - {fileID: 3885088616883271106}
+  isChosen: 0
 --- !u!1 &7558899017119091908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,6 +1588,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 7667193367755451541}
+  - {fileID: 3885088616883271106}
+  isChosen: 0
 --- !u!1 &7640534565873198427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1689,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 3242788347275520521}
+  - {fileID: 6320552770939459548}
+  isChosen: 0
 --- !u!1 &8014058460411785579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1790,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5927218912166911151}
+  - {fileID: 6099355250446030211}
+  - {fileID: 4838008234981173492}
+  isChosen: 0
 --- !u!1 &8260906188222287421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,6 +1892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 6122584205546118685}
+  - {fileID: 8189887409455478352}
+  isChosen: 0
 --- !u!1 &8580065546109817106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,6 +1993,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 3079366664740758220}
+  - {fileID: 7556194058020190883}
+  isChosen: 0
 --- !u!1 &8697359362855052580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,6 +2094,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 1185197389604500997}
+  - {fileID: 7161932462179208096}
+  - {fileID: 7828662576651822045}
+  isChosen: 0
 --- !u!1 &8697359362933506528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 7161932462179208096}
+  - {fileID: 7828662576651822045}
+  isChosen: 0
 --- !u!1 &8697359362945374747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2297,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 4141500907389737329}
+  - {fileID: 1196177622320471785}
+  - {fileID: 7828662576651822045}
+  isChosen: 0
 --- !u!1 &8697359363012873188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 4083045580502281481}
+  - {fileID: 6099355250446030211}
+  - {fileID: 2978299130615699167}
+  isChosen: 0
 --- !u!1 &8697359363130041666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2501,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8945733795992868962}
+  - {fileID: 8182020867755698304}
+  - {fileID: 8846918628810987820}
+  isChosen: 0
 --- !u!1 &8697359363130536107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,6 +2603,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8945733795992868962}
+  - {fileID: 8846918628810987820}
+  - {fileID: 382735159544312776}
+  isChosen: 0
 --- !u!1 &8697359363457812323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,6 +2705,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5064825824960126505}
+  - {fileID: 2803343005056377663}
+  - {fileID: 4083045580502281481}
+  isChosen: 0
 --- !u!1 &8697359363660527976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2736,6 +2807,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8182020867755698304}
+  - {fileID: 2897266422089808027}
+  isChosen: 0
 --- !u!1 &8697359363820726181
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,6 +2908,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5226846493136670916}
+  - {fileID: 1185197389604500997}
+  - {fileID: 8402504391169187729}
+  isChosen: 0
 --- !u!1 &8697359364044626480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,6 +3010,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 2897266422089808027}
+  - {fileID: 8182020867755698304}
+  - {fileID: 2803343005056377663}
+  isChosen: 0
 --- !u!1 &8697359364057752007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,7 +3031,7 @@ GameObject:
   m_TagString: Slicable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8697359364057752005
 Transform:
@@ -3027,6 +3112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8701639845990488008}
+  - {fileID: 8402504391169187729}
+  - {fileID: 7556194058020190883}
+  isChosen: 0
 --- !u!1 &8697359364277186131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,6 +3214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 2803343005056377663}
+  - {fileID: 5064825824960126505}
+  isChosen: 0
 --- !u!1 &8697359364282576447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3140,7 +3234,7 @@ GameObject:
   m_TagString: Slicable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8697359364282576445
 Transform:
@@ -3221,6 +3315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles: []
+  isChosen: 0
 --- !u!1 &8697359364376383630
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,6 +3414,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 4083045580502281481}
+  - {fileID: 6099355250446030211}
+  - {fileID: 8945733795992868962}
+  isChosen: 0
 --- !u!1 &8697359364582693056
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,6 +3516,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5226846493136670916}
+  - {fileID: 1185197389604500997}
+  - {fileID: 3210045895945739102}
+  isChosen: 0
 --- !u!1 &8697359364708785211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,6 +3618,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 8701639845990488008}
+  - {fileID: 8402504391169187729}
+  - {fileID: 1196177622320471785}
+  isChosen: 0
 --- !u!1 &9071001237532805343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,3 +3720,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bc39d03ac4a6442bfd0c5e0e43b088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjasentTriangles:
+  - {fileID: 5226846493136670916}
+  - {fileID: 705968474325297028}
+  - {fileID: 5904762673182443360}
+  isChosen: 0
